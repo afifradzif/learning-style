@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:text="Result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="59dp"
+        android:id="@+id/resultTitle"
+        android:textStyle="normal|bold"
+        android:textSize="36sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Auditory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="67dp"
+        android:id="@+id/auditoryTitle"
+        android:textSize="18sp"
+        android:layout_below="@+id/resultTitle"
+        android:layout_toStartOf="@+id/resultTitle" />
+
+    <TextView
+        android:text="Visual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/visualTitle"
+        android:textSize="18sp"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/auditoryTitle" />
+
+    <TextView
+        android:text="Tactile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/visualTitle"
+        android:layout_alignStart="@+id/visualTitle"
+        android:layout_marginTop="51dp"
+        android:id="@+id/tactileTitle"
+        android:fontFamily="sans-serif"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/auditoryPoint"
+        android:layout_alignBottom="@+id/auditoryTitle"
+        android:layout_toEndOf="@+id/auditoryTitle"
+        android:layout_marginStart="88dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/auditoryPoint"
+        android:id="@+id/visualPoint" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tactileTitle"
+        android:layout_alignStart="@+id/visualPoint"
+        android:id="@+id/tactilePoint" />
+
+    <Button
+        android:text="Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/auditoryTitle"
+        android:layout_marginBottom="60dp"
+        android:id="@+id/submitBtn" />
+</RelativeLayout>
