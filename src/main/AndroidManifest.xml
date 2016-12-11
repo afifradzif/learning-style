@@ -20,7 +20,7 @@
         <activity android:name=".EvaluationConnect"></activity>
         <activity android:name=".Nickname"></activity>
         <activity android:name=".Result"></activity>
-        <activity android:name=".QuizUI">
-        </activity>
+        <activity android:name=".QuizUI"
+            android:theme="@style/CustomTheme"></activity>
     </application>
 </manifest>

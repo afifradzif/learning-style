@@ -47,15 +47,6 @@
         android:text="TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/auditoryPoint"
-        android:layout_alignBottom="@+id/auditoryTitle"
-        android:layout_toEndOf="@+id/auditoryTitle"
-        android:layout_marginStart="88dp" />
-
-    <TextView
-        android:text="TextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_alignStart="@+id/auditoryPoint"
         android:id="@+id/visualPoint" />
@@ -76,4 +67,12 @@
         android:layout_toEndOf="@+id/auditoryTitle"
         android:layout_marginBottom="60dp"
         android:id="@+id/submitBtn" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/auditoryPoint"
+        android:layout_alignBottom="@+id/auditoryTitle"
+        android:layout_toEndOf="@+id/submitBtn" />
 </RelativeLayout>
